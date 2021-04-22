@@ -84,11 +84,14 @@ button:hover{
 }
 
 /* FOOTER */
+.footer_general, .footer_count, .footer_people, .footer_person{
+    background-color: #333333; /* black */
+}
+
 .footer ul{
     list-style-type: none;
     margin: auto;
     overflow: hidden;
-    background-color: #333333; /* black */
 }
 
 .footer li{
