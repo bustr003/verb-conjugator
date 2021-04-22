@@ -83,6 +83,11 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
+.my_logo{
+    border-radius: 50%;
+    border: 5px solid #b32d00; /* dk red */
+}
+
 /* FOOTER */
 .footer_general, .footer_count, .footer_people, .footer_person{
     background-color: #333333; /* black */
