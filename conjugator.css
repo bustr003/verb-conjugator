@@ -12,6 +12,7 @@ body{
 
 table{
     margin: auto;
+    background-color: #ffffff;
     /*text-align: center;*/
 }
 
@@ -56,13 +57,13 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
-a .footer{
+a{
     color: #ffffff; /*white text*/
     text-decoration: underline #ffffff; /* white */
     font-family: 'Baloo 2', cursive;
 }
 
-a:hover .footer{
+a:hover{
     color: #b32d00; /* dk red text */
     text-decoration: underline #b32d00; /* dk red */
 }
