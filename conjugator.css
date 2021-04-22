@@ -56,6 +56,16 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
+a .footer{
+    color: #ffffff; /*white text*/
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+}
+
+a:hover .footer{
+    text-decoration: underline #b32d00; /* dk red */
+}
+
 /* DROPDOWN */
 .dropdown {
     position: relative;
