@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel = "stylesheet" type = "text/css" href = "../conjugator.css">
-    <title>Verb Conjugator | AR</title>
+    <title>Verb Conjugator | ER</title>
 
     <!--Font-->
     <link rel="preconnect"
         href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
         rel="stylesheet">
-
+    
     <script src="../conjugator.js"></script>
 </head>
 
@@ -26,7 +26,7 @@
             </td>
 
             <td class="banner_message">
-            <h1 id="banner_message">para un verbo -ar</h1>
+            <h1 id="banner_message">para un verbo -er</h1>
             </td>
         </tr>
         </table>
@@ -35,11 +35,12 @@
     <!-- Space between two divs-->
     <br>
 
+    <!-- Type of Verb -->
     <table>
     <tr>
     
     <td> <!-- LEFT -->
-    <h1 id="solution" align="center">&iquest;Quie&#769;n es?</h1>
+    <h1 id="solution" align="center">&iquest;Quie&#769;nes son?</h1>
     <p id="note" align="center"></p>
     </td>
 
@@ -49,32 +50,21 @@
             <td colspan="2"> <!-- First person -->
             <div align="center">
                 <button type = "button"
-                onclick = "solution('Yo', 'o')"
-                style = "width: 45%">
-                    Yo
+                onclick = "solution('Nosotros', 'emos')"
+                style="width:50%">
+                    Nosotros
                 </button>
             </div> <!-- Button div -->
             </td>
         </tr>
         <tr> <!-- Row: Second person -->
-            <td> <!-- Informal -->
-                <div align="center">
-                    <br>
-                    <button type = "button"
-                    onclick = "solution('Tu', 'as')"
-                    style = "width: 90%">
-                        Tu&#769;
-                    </button>
-                </div> <!-- Button div -->
-            </td>
-
-            <td> <!-- Formal -->
+            <td colspan="2"> <!-- Formal/informal -->
             <div align="center">
                 <br>
                 <button type = "button"
-                onclick = "solution('Usted', 'a')"
-                style = "width: 90%">
-                    Usted
+                onclick = "solution('Ustedes', 'en')"
+                style="width:50%">
+                    Ustedes
                 </button>
             </div> <!-- Button div -->
             </td>
@@ -85,9 +75,9 @@
             <div align="center">
                 <br>
                 <button type = "button"
-                onclick = "solution('El', 'a')"
+                onclick = "solution('Ellos', 'en')"
                 style = "width: 90%">
-                    E&#769;l
+                    Ellos
                 </button>
             </div> <!-- Button div -->
             </td>
@@ -96,9 +86,9 @@
             <div align="center">
                 <br>
                 <button type = "button"
-                onclick = "solution('Ella', 'a')"
+                onclick = "solution('Ellas', 'en')"
                 style = "width: 90%">
-                    Ella
+                    Ellas
                 </button>
             </div> <!-- Button div -->
             </td>
@@ -108,6 +98,7 @@
 
     </tr>
     </table>
+    <br>
 
     <p align="center">-- Developed by Mhea Bustria --</p>
 

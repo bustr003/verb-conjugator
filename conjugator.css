@@ -12,27 +12,25 @@ body{
 
 table{
     margin: auto;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 td{
     width: 30%;
+    /* background-color: #b32d00; */ /* for testing */
+}
+
+/* Banner styles */
+td .banner_logo{
+    width: 30%;
+}
+
+td .banner_message{
+    width: 70%;
 }
 
 .banner{
     background-color: #333333; /* black */
-}
-
-.page{
-    background-color: white;
-    width: 60%;
-    margin: auto;
-     border: 2px solid #000000;
-}
-
-.scene{
-    border-color: 5px solid #335C67; /* blue */
-    width: 500;
 }
 
 button{
@@ -51,6 +49,11 @@ button{
 
 button:hover{
     background-color: #b32d00; /* dk red */
+}
+
+.pronoun{
+    border-radius: 7px;
+    /* border: 5px solid #333333; */ /* black */
 }
 
 /* DROPDOWN */

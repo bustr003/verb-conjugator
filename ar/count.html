@@ -10,14 +10,26 @@
         href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
         rel="stylesheet">
+
+    <script src="../conjugator.js"></script>
 </head>
 
 <body>
     <!-- Banner -->
-    <div class="banner" aligh="center">
-        <a href="../index.html">
-        <img src = "../images/banner.png" height="60">
-        </a>
+    <div class="banner" align="center">
+        <table text-align="left" style="width:100%">
+        <tr>
+            <td class="banner_logo">
+                <a href="../index.html">
+                <img class="banner_image" src = "../images/banner.png" width="400">
+                </a>
+            </td>
+
+            <td class="banner_message">
+            <h1 id="banner_message">para un verbo -ar</h1>
+            </td>
+        </tr>
+        </table>
     </div>
 
     <!-- Space between two divs-->
@@ -25,13 +37,7 @@
 
     <!-- JavaScript for redirects -->
     <script>
-        function redirectPerson(){
-            location.href = "person.html";
-        }
-
-        function redirectPeople(){
-            location.href = "people.html";
-        }
+        
     </script>
 
     <!-- Type of Verb -->

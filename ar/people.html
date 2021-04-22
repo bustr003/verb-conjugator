@@ -32,14 +32,16 @@
         </table>
     </div>
 
+
     <!-- Space between two divs-->
     <br>
 
+    <!-- Type of Verb -->
     <table>
     <tr>
     
     <td> <!-- LEFT -->
-    <h1 id="solution" align="center">&iquest;Quie&#769;n es?</h1>
+    <h1 id="solution" align="center">&iquest;Quie&#769;nes son?</h1>
     <p id="note" align="center"></p>
     </td>
 
@@ -49,32 +51,21 @@
             <td colspan="2"> <!-- First person -->
             <div align="center">
                 <button type = "button"
-                onclick = "solution('Yo', 'o')"
-                style = "width: 45%">
-                    Yo
+                onclick = "solution('Nosotros', 'amos')"
+                style="width:50%">
+                    Nosotros
                 </button>
             </div> <!-- Button div -->
             </td>
         </tr>
         <tr> <!-- Row: Second person -->
-            <td> <!-- Informal -->
-                <div align="center">
-                    <br>
-                    <button type = "button"
-                    onclick = "solution('Tu', 'as')"
-                    style = "width: 90%">
-                        Tu&#769;
-                    </button>
-                </div> <!-- Button div -->
-            </td>
-
-            <td> <!-- Formal -->
+            <td colspan="2"> <!-- Formal/informal -->
             <div align="center">
                 <br>
                 <button type = "button"
-                onclick = "solution('Usted', 'a')"
-                style = "width: 90%">
-                    Usted
+                onclick = "solution('Ustedes', 'an')"
+                style="width:50%">
+                    Ustedes
                 </button>
             </div> <!-- Button div -->
             </td>
@@ -85,9 +76,9 @@
             <div align="center">
                 <br>
                 <button type = "button"
-                onclick = "solution('El', 'a')"
+                onclick = "solution('Ellos', 'an')"
                 style = "width: 90%">
-                    E&#769;l
+                    Ellos
                 </button>
             </div> <!-- Button div -->
             </td>
@@ -96,9 +87,9 @@
             <div align="center">
                 <br>
                 <button type = "button"
-                onclick = "solution('Ella', 'a')"
+                onclick = "solution('Ellas', 'an')"
                 style = "width: 90%">
-                    Ella
+                    Ellas
                 </button>
             </div> <!-- Button div -->
             </td>
@@ -108,6 +99,7 @@
 
     </tr>
     </table>
+    <br>
 
     <p align="center">-- Developed by Mhea Bustria --</p>
 

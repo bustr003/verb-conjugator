@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel = "stylesheet" type = "text/css" href = "conjugator.css">
-    <title>Verb Conjugator</title>
+    <link rel = "stylesheet" type = "text/css" href = "../conjugator.css">
+    <title>Verb Conjugator | IR</title>
 
     <!--Font-->
     <link rel="preconnect"
@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
         rel="stylesheet">
     
-    <script src="conjugator.js"></script>
+    <script src="../conjugator.js"></script>
 </head>
 
 <body>
@@ -20,45 +20,42 @@
         <table text-align="left" style="width:100%">
         <tr>
             <td class="banner_logo">
-                <a href="index.html">
-                <img class="banner_image" src = "images/banner.png" width="400">
+                <a href="../index.html">
+                <img class="banner_image" src = "../images/banner.png" width="400">
                 </a>
             </td>
 
             <td class="banner_message">
-            <h1 id="banner_message">Find a new ending for your verb!</h1>
+            <h1 id="banner_message">para un verbo -ir</h1>
             </td>
         </tr>
         </table>
     </div>
-    
+
     <!-- Space between two divs-->
     <br>
 
     <!-- Type of Verb -->
-    <h1 align="center">&iquest;Que tipo de verbo?</h1>
+    <h1 align="center">&iquest;Cuantos personas hay?</h1>
     <div align="center">
-        <button type = "submit" onclick = "redirectAr()"
-        style = "width: 10%">
-            -ar
+        <button type = "submit" onclick = "redirectPerson()"
+        style = "width: 30%">
+            <img src="../images/one_person.png">
+            <br>
+            Hay una persona.
         </button>
     </div> <!-- Button div -->
     <br>
 
     <div align="center">
-        <button type = "submit" onclick = "redirectEr()"
-            style="width: 10%;">
-            -er
+        <button type = "submit" onclick = "redirectPeople()"
+            style="width: 30%;">
+            <img src="../images/more_people.png">
+            <br>
+            Hay muchas personas.
         </button>
     </div> <!-- Button div -->
     <br>
-
-    <div align="center">
-        <button type = "submit" onclick = "redirectIr()"
-            style="width: 10%;">
-            -ir
-        </button>
-    </div> <!-- Button div -->
 
     <p align="center">-- Developed by Mhea Bustria --</p>
 
