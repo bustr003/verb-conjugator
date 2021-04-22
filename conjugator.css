@@ -71,7 +71,7 @@ button:hover{
 
 .footer li a{
     color: #ffffff; /*white text*/
-    text-decoration: underline #ffffff; /* white */
+    text-decoration: none; /* white */
     font-family: 'Baloo 2', cursive;
 }
 
