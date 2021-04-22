@@ -25,7 +25,8 @@ body{
 }
 
 .rb{
-    color: #b32d00; /* dk red */
+    color: #ffffff;/* #b32d00 dk red */
+    font-style: normal;
     font-weight: bold;
 }
 
