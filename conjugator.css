@@ -32,7 +32,8 @@ body{
 
 .text_body a:hover{
     color: #ffffff; /* white text */
-    text-decoration: underline #b32d00; /* dk red */
+    background-color: #b32d00; /* dk red */
+    text-decoration: none;
 }
 
 /* BANNER */
