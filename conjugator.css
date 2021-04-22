@@ -56,7 +56,7 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
-a:visited, a:link:active, a:visited:active .footer{
+a .footer{
     color: #ffffff; /*white text*/
     text-decoration: underline #ffffff; /* white */
     font-family: 'Baloo 2', cursive;
