@@ -25,13 +25,13 @@ body{
 }
 
 .text_body a{
-    color: #ffffff; /*white text*/
-    text-decoration: underline #ffffff; /* white */
+    color: #b32d00; /* dk red */
+    text-decoration: underline #b32d00; /* dk red */
     font-family: 'Baloo 2', cursive;
 }
 
-.link_within a:hover{
-    color: #b32d00; /* dk red text */
+.text_body a:hover{
+    color: #ffffff; /* white text */
     text-decoration: underline #b32d00; /* dk red */
 }
 
@@ -86,7 +86,7 @@ button:hover{
 .my_logo{
     margin: 0 auto;
     border-radius: 50%;
-    border: 2px solid #b32d00; /* dk red */
+    border: 3px solid #b32d00; /* dk red */
 }
 
 /* FOOTER */
