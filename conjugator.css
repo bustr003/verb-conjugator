@@ -57,13 +57,17 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
-a{
+li .footer{
+    display: inline;
+}
+
+li a .footer{
     color: #ffffff; /*white text*/
     text-decoration: underline #ffffff; /* white */
     font-family: 'Baloo 2', cursive;
 }
 
-a:hover{
+li a:hover .footer{
     color: #b32d00; /* dk red text */
     text-decoration: underline #b32d00; /* dk red */
 }
