@@ -32,10 +32,10 @@ function solution(pronoun, ending){
     else if(pronoun == "Ustedes"){pronoun = "Uds.";}
 
     // Solution for this combination of pronoun and verb type
-    var message = pronoun + " <u>root</u>" + ending + ".<br>"
+    var message = pronoun + "&nbsp;&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>" + ending + ".<br>"
 
     // Note to add the root of the verb
-    var note = "<p>Replace&nbsp;&nbsp;<u>root</u>&nbsp;&nbsp;with the root of your verb.<\p>"
+    var note = "<p>Replace&nbsp;&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;&nbsp;with the root of your verb.<\p>"
 
     // Write to the HTML code
     document.getElementById("solution").innerHTML = insert + message;
