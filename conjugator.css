@@ -24,6 +24,17 @@ body{
     color: #ffffff;
 }
 
+.rb{
+    color: #b32d00; /* dk red */
+    font-weight: bold;
+}
+
+.rbi{
+    color: #b32d00; /* dk red */
+    font-weight: bold;
+    font-style: italic;
+}
+
 .text_body a{
     color: #b32d00; /* dk red */
     text-decoration: underline #b32d00; /* dk red */
