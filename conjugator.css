@@ -10,18 +10,11 @@ body{
     color: #ffffff; /* white font color */
 }
 
-table{
-    margin: auto;
-    background-color: green;
-    /*text-align: center;*/
+/* BANNER */
+.banner{
+    background-color: #333333; /* black */
 }
 
-td{
-    width: 30%;
-    /* background-color: #b32d00; */ /* for testing */
-}
-
-/* Banner styles */
 td.banner_logo{
     width: 30%;
 }
@@ -30,10 +23,18 @@ td.banner_message{
     width: 70%;
 }
 
-.banner{
-    background-color: #333333; /* black */
+/* TABLE */
+table{
+    margin: auto;
+    /*text-align: center;*/
 }
 
+td{
+    width: 30%;
+    /* background-color: #b32d00; */ /* for testing */
+}
+
+/* BUTTONS */
 button{
     background-color: #333333; /* black */
     border-color: #b32d00; /* dk red */
