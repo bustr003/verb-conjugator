@@ -57,25 +57,25 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
-ul.footer{
+/* FOOTER */
+.footer ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #F7C3B4;
 }
 
-li.footer{
+.footer li{
     display: inline;
 }
 
-li a.footer{
+.footer li a{
     color: #ffffff; /*white text*/
     text-decoration: underline #ffffff; /* white */
     font-family: 'Baloo 2', cursive;
 }
 
-li a:hover.footer{
+.footer li a:hover{
     color: #b32d00; /* dk red text */
     text-decoration: underline #b32d00; /* dk red */
 }
