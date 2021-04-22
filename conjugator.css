@@ -11,6 +11,17 @@ body{
 }
 
 /* Links within text */
+.text_body div{
+    background-color: #333333; /* black */
+    border: 5px solid #b32d00; /* dk red */
+    font-family: 'Baloo 2', cursive;
+    color: #ffffff;
+    font-size: 25px;
+    width: 50%;
+    border-radius: 25px;
+    margin: auto;
+}
+
 .link_within a{
     color: #ffffff; /*white text*/
     text-decoration: underline #ffffff; /* white */
@@ -76,11 +87,11 @@ button:hover{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #333333; /* black */
 }
 
 .footer li{
     display: inline;
-    background-color: #333333; /* black */
 }
 
 .footer li a{
