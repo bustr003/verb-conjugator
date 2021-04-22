@@ -84,8 +84,9 @@ button:hover{
 }
 
 .my_logo{
+    margin: 0 auto;
     border-radius: 50%;
-    border: 5px solid #b32d00; /* dk red */
+    border: 2px solid #b32d00; /* dk red */
 }
 
 /* FOOTER */
