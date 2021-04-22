@@ -17,6 +17,7 @@ body{
     margin: auto;
     background-color: #333333; /* black */
     border: 5px solid #b32d00; /* dk red */
+    padding: 10px;
 
     font-family: 'Baloo 2', cursive;
     text-align: justify;
