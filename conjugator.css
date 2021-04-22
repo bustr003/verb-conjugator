@@ -56,13 +56,14 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
-a:link, a:visited, a:link:active, a:visited:active .footer{
+a:visited, a:link:active, a:visited:active .footer{
     color: #ffffff; /*white text*/
-    text-decoration: none;
+    text-decoration: underline #ffffff; /* white */
     font-family: 'Baloo 2', cursive;
 }
 
 a:hover .footer{
+    color: #b32d00; /* dk red text */
     text-decoration: underline #b32d00; /* dk red */
 }
 
