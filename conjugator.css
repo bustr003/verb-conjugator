@@ -17,7 +17,7 @@ body{
     margin: auto;
     background-color: #333333; /* black */
     border: 5px solid #b32d00; /* dk red */
-    padding: 10px;
+    padding: 20px;
 
     font-family: 'Baloo 2', cursive;
     text-align: justify;
@@ -86,8 +86,7 @@ button:hover{
 /* FOOTER */
 .footer ul{
     list-style-type: none;
-    /*margin: 0;
-    padding: 0;*/
+    margin: auto;
     overflow: hidden;
     background-color: #333333; /* black */
 }
