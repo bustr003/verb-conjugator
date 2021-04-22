@@ -12,17 +12,18 @@ body{
 
 /* Links within text */
 .text_body{
-    background-color: #333333; /* black */
-    border: 5px solid #b32d00; /* dk red */
-    font-family: 'Baloo 2', cursive;
-    color: #ffffff;
-    font-size: 25px;
     width: 50%;
     border-radius: 25px;
     margin: auto;
+    background-color: #333333; /* black */
+    border: 5px solid #b32d00; /* dk red */
+
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+    color: #ffffff;
 }
 
-.link_within a{
+.text_body a{
     color: #ffffff; /*white text*/
     text-decoration: underline #ffffff; /* white */
     font-family: 'Baloo 2', cursive;
@@ -84,8 +85,8 @@ button:hover{
 /* FOOTER */
 .footer ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
     overflow: hidden;
     background-color: #333333; /* black */
 }
