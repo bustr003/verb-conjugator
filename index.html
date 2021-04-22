@@ -12,6 +12,14 @@
         rel="stylesheet">
     
     <script src="conjugator.js"></script>
+
+    <!-- Reuse HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#footer').load('header.html');
+        });
+    </script>
 </head>
 
 <body>
@@ -61,6 +69,7 @@
     </div> <!-- Button div -->
 
     <p align="center">-- Developed by Mhea Bustria --</p>
+    <div id="footer"></div>
 
 </body>
 </html>
