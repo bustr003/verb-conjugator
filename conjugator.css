@@ -68,6 +68,7 @@ button:hover{
 
 .footer li{
     display: inline;
+    background-color: #333333; /* black */
 }
 
 .footer li a{
