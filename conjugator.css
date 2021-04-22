@@ -10,6 +10,18 @@ body{
     color: #ffffff; /* white font color */
 }
 
+/* Links within text */
+.link_within a{
+    color: #ffffff; /*white text*/
+    text-decoration: underline #ffffff; /* white */
+    font-family: 'Baloo 2', cursive;
+}
+
+.link_within a:hover{
+    color: #b32d00; /* dk red text */
+    text-decoration: underline #b32d00; /* dk red */
+}
+
 /* BANNER */
 .banner{
     background-color: #333333; /* black */
