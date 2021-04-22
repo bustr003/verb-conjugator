@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "../conjugator.css">
+    <title>Verb Conjugator | AR</title>
+
+    <!--Font-->
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Banner -->
+    <div class="banner" aligh="center">
+        <a href="../index.html">
+        <img src = "../images/banner.png" height="60">
+        </a>
+    </div>
+
+    <!-- Space between two divs-->
+    <br>
+
+    <!-- JavaScript for redirects -->
+    <script>
+        function solution(pronoun, ending){
+        var insert = "<img align=center src=\"../images/" + pronoun + ".png\" height=\"100\"><br>"
+
+        if(pronoun == "El"){pronoun = "E&#769;l";}
+        else if(pronoun == "Tu"){pronun = "Tu&#769;"};
+
+        var message = pronoun + " <i>root</i><u>" + ending + "</u>.<br>"
+        document.getElementById("solution").innerHTML = insert + message;
+        }//function milk_Chat
+    </script>
+
+    <!-- Type of Verb -->
+    <h1 align="center" id="solution">&iquest;Quie&#769;n?</h1>
+
+    <table>
+        <tr> <!-- Row: First person -->
+            <td colspan="2"> <!-- First person -->
+            <div align="center">
+                <button type = "button" onclick = "solution('Yo', 'o')"
+                style = "width: 45%">
+                    Yo
+                </button>
+            </div> <!-- Button div -->
+            </td>
+        </tr>
+        <tr> <!-- Row: Second person -->
+            <td> <!-- Informal -->
+                <div align="center">
+                    <br>
+                    <button type = "button" onclick = "solution('Tu', 'as')"
+                    style = "width: 90%">
+                        Tu&#769;
+                    </button>
+                </div> <!-- Button div -->
+            </td>
+
+            <td> <!-- Formal -->
+            <div align="center">
+                <br>
+                <button type = "button" onclick = "solution('Ud.', 'a')"
+                style = "width: 90%">
+                    Usted
+                </button>
+            </div> <!-- Button div -->
+            </td>
+        </tr>
+
+        <tr> <!-- Row: Third person -->
+            <td> <!-- Male -->
+            <div align="center">
+                <br>
+                <button type = "button" onclick = "solution('El', 'a')"
+                style = "width: 90%">
+                    E&#769;l
+                </button>
+            </div> <!-- Button div -->
+            </td>
+
+            <td> <!-- Female -->
+            <div align="center">
+                <br>
+                <button type = "button" onclick = "solution('Ella', 'a')"
+                style = "width: 90%">
+                    Ella
+                </button>
+            </div> <!-- Button div -->
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <p align="center">-- Developed by Mhea Bustria --</p>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "../conjugator.css">
+    <title>Verb Conjugator | AR</title>
+
+    <!--Font-->
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Banner -->
+    <div class="banner" aligh="center">
+        <a href="../index.html">
+        <img src = "../images/banner.png" height="60">
+        </a>
+    </div>
+
+    <!-- Space between two divs-->
+    <br>
+
+    <!-- JavaScript for redirects -->
+    <script>
+        function redirectPerson(){
+            location.href = "person.html";
+        }
+
+        function redirectPeople(){
+            location.href = "people.html";
+        }
+    </script>
+
+    <!-- Type of Verb -->
+    <h1 align="center">&iquest;Cuantos personas hay?</h1>
+    <div align="center">
+        <button type = "submit" onclick = "redirectPerson()"
+        style = "width: 30%">
+            <img src="../images/one_person.png">
+            <br>
+            Hay una persona.
+        </button>
+    </div> <!-- Button div -->
+    <br>
+
+    <div align="center">
+        <button type = "submit" onclick = "redirectPeople()"
+            style="width: 30%;">
+            <img src="../images/more_people.png">
+            <br>
+            Hay muchas personas.
+        </button>
+    </div> <!-- Button div -->
+    <br>
+
+    <p align="center">-- Developed by Mhea Bustria --</p>
+
+</body>
+</html>
