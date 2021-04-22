@@ -22,11 +22,11 @@ td{
 }
 
 /* Banner styles */
-td .banner_logo{
+td.banner_logo{
     width: 30%;
 }
 
-td .banner_message{
+td.banner_message{
     width: 70%;
 }
 
@@ -57,7 +57,7 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
-ul .footer{
+ul.footer{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -65,17 +65,17 @@ ul .footer{
     background-color: #F7C3B4;
 }
 
-li .footer{
+li.footer{
     display: inline;
 }
 
-li a .footer{
+li a.footer{
     color: #ffffff; /*white text*/
     text-decoration: underline #ffffff; /* white */
     font-family: 'Baloo 2', cursive;
 }
 
-li a:hover .footer{
+li a:hover.footer{
     color: #b32d00; /* dk red text */
     text-decoration: underline #b32d00; /* dk red */
 }
