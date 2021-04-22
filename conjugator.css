@@ -57,6 +57,14 @@ button:hover{
     /* border: 5px solid #333333; */ /* black */
 }
 
+ul .footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F7C3B4;
+}
+
 li .footer{
     display: inline;
 }
